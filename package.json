@@ -1,0 +1,34 @@
+{
+	"name": "nbase-cli",
+	"version": "1.0.0",
+	"description": "Auth-cli for managing authentication as a service",
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/neltoby"
+	},
+	"keywords": [
+		"nodejs",
+		"auth",
+		"nbase",
+		"auth"
+	],
+	"author": "neltoby",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^7.2.0",
+		"email-validator": "^2.0.4",
+		"got": "^11.8.2",
+		"inquirer": "^8.1.1",
+		"mongoose": "^5.12.14",
+		"password-validator": "^5.1.1"
+	},
+	"bin": {
+		"nbase": "src/index.js"
+	},
+	"devDependencies": {
+		"eslint": "^7.29.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.23.4"
+	}
+}
